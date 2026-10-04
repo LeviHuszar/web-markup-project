@@ -1,1 +1,65 @@
-/* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    min-width: 15rem;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 0px;
+    line-height: 2.5;
+    text-indent: 30px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+h3 {
+    line-height: 1.5;
+    text-indent: 15px;
+    word-spacing: 2.5px;
+}
+
+
+ol {
+    display: none;
+    flex-basis: 100%;
+    margin-top: 1rem;
+    text-align: left;
+    width: fit-content;
+}
+
+#amsterdam:checked ~ #amsterdam-bouldering,
+#haarlem:checked ~ #haarlem-bouldering {
+	display: block;
+}

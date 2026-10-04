@@ -1,0 +1,5 @@
+Student name: Levi Huszár
+Student number: 760608
+Student class: HAIT26FT1C
+GitHub Repository: your github repository URL
+GitHub Pages URL: your github pages URL
