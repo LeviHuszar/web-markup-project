@@ -10,6 +10,14 @@ body {
     background-size: cover;
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 23px;
+    list-style: none;
+    padding: 0;
+}
+
 header {
     text-align: center;
 }
@@ -62,4 +70,58 @@ ol {
 #amsterdam:checked ~ #amsterdam-bouldering,
 #haarlem:checked ~ #haarlem-bouldering {
 	display: block;
+}
+
+
+/* Desktop */
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    table {
+        max-width: 40rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    table {
+        max-width: 32rem;
+    }
+}
+
+
+/* Phones */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75em;
+        line-height: 1.5;
+        text-indent: 0;
+    }
+
+    section {
+        padding: 0 1rem;
+    }
+
+    fieldset {
+        flex-direction: column;
+        min-width: 0;
+        width: 100%;
+    }
+
+    table {
+        max-width: 100%;
+        font-size: 0.9em;
+    }
+
+    .circle {
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+    }
 }
