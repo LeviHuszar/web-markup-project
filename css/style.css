@@ -4,23 +4,14 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    line-height: 1.6;
     background-image: url(/img/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    color: whitesmoke;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    gap: 23px;
-    list-style: none;
-    padding: 0;
-}
-
-header {
-    text-align: center;
-}
 
 footer {
     text-align: center;
@@ -44,7 +35,7 @@ fieldset {
 }
 
 h1 {
-    letter-spacing: 0px;
+    letter-spacing: 0.1em;
     line-height: 2.5;
     text-indent: 30px;
     word-spacing: 5px;
@@ -67,11 +58,133 @@ ol {
     width: fit-content;
 }
 
+p {
+    text-indent: 0.5rem;
+    word-spacing: 0.1em;
+}
+
+
+/* HEADER AND NAVIGATION */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background-color: #1c2733;
+    color: #ffffff;
+}
+
+nav {
+    max-width: 30rem;
+    margin: 1rem auto 2rem;
+    padding: 0.5rem;
+    background-color: rgba(28, 39, 51, 0.9);
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    display: block;
+    padding: 0.6rem 1.2rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+nav a:hover {
+    background-color: #1c2733;
+}
+
+nav a:active {
+    background-color: #1b5cb8;
+}
+
+/* FOR SEARCH.HTML */
 #amsterdam:checked ~ #amsterdam-bouldering,
 #haarlem:checked ~ #haarlem-bouldering {
 	display: block;
 }
 
+*/ Cards */
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 60rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    position: relative;
+    flex: 1 1 1.5rem;
+    box-sizing: border-box;
+    background-color: #808080;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 0.75rem;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.card:hover,
+.card:focus-within {
+    background-color: #2f80ed;
+    border-color: white;
+}
+
+.card > a {
+    display: block;
+    padding: 1.5rem 1rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.card h2 {
+    margin-top: 0;
+    padding-right: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.info {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    z-index: 2;
+}
+
+.info > summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #1c2733;
+    font-weight: bold;
+    list-style: none;
+    cursor: pointer;
+}
+
+/* SIZING */
 
 /* Desktop */
 @media (min-width: 1025px) {
