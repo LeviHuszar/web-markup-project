@@ -250,3 +250,37 @@ header {
 .dropdown tbody tr:nth-child(even) {
     background-color: #CFF;
 }
+
+/* BOULDER LOOKUP */
+
+.city-choice {
+    margin-top: 24px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-family: "Armata", sans-serif;
+}
+
+.city-choice > legend {
+    margin: 0 auto 16px;
+}
+
+.city-choice label {
+    margin: 0 32px 0 8px;
+    cursor: pointer;
+}
+
+.city-choice > .dropdown {
+    text-align: left;
+}
+
+/* Shows the table that is correspondent to the city */
+#haarlem:checked ~ #haarlem-bouldering,
+#amsterdam:checked ~ #amsterdam-bouldering {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    font-family: "Armata", sans-serif;
+}

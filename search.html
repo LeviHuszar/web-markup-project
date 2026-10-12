@@ -3,44 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bouldering Gym Lookup</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" type="image/favicon-icon" href="/img/favicon.png"
-
+    <title>Boulder Lookup</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/favicon-icon" href="/img/favicon.png">
 </head>
 <body>
     <header>
-        
-        <h1>Bouldering Gym Lookup</h1>
+        <nav class="nav_links">
+                <a href="contact.html">Contact</a>
+        </nav>
 
+        <a class="logo-link" href="index.html"><img class="logo" src="/img/small logo - white transparent.svg" alt="Bouldertip logo"></a>
     </header>
-    
-    <section>
-        <form>
-            <fieldset>
-                <legend>Choose a city</legend>
-                <input type="radio" name="city" id="amsterdam" value="amsterdam">
-                <label for="amsterdam">Amsterdam</label>
-                <input type="radio" name="city" id="haarlem" value="haarlem">
-                <label for="haarlem">Haarlem</label>
 
-                <ol id="amsterdam-bouldering">
-                    <li>Beest Boulders, Het Lab</li>
-                    <li>Beest Boulders</li>
-                    <li>Beta Boulders</li>
-                    <li>Be Boulder</li>
-                    <li>Monk Bouldergym</li>
-                </ol>
+    <main class="content">
+	<section class="title-card">
+		<p>Title</p>
+	</section>
 
-                <ol id="haarlem-bouldering">
-                    <li>Klimmuur Haarlem</li>
-                    <li>Boulderhal De Fabriek Haarlem</li>
-                </ol>
-            </fieldset>
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2026 Huszár Levi</p>
-    </footer>
+	<section class="description-card">
+		<p>Short Description</p>
+	</section>
+
+	<form>
+		<fieldset class="city-choice">
+			<legend>Choose a city</legend>
+
+			<input type="radio" name="city" id="haarlem" value="haarlem" checked>
+			<label for="haarlem">Haarlem</label>
+			<input type="radio" name="city" id="amsterdam" value="amsterdam">
+			<label for="amsterdam">Amsterdam</label>
+
+			<article class="dropdown" id="haarlem-bouldering">
+				<table>
+					<thead>
+						<tr>
+							<th>Location</th>
+							<th>Difficulty</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Klimmuur Haarlem</td>
+							<td>&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+						</tr>
+						<tr>
+							<td>Boulderhal De Fabriek Haarlem</td>
+							<td>&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+						</tr>
+					</tbody>
+				</table>
+			</article>
+
+			<article class="dropdown" id="amsterdam-bouldering">
+				<table>
+					<thead>
+						<tr>
+							<th>Location</th>
+							<th>Difficulty</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Beest Boulders, Het Lab</td>
+							<td>&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+						</tr>
+						<tr>
+							<td>Beest Boulders</td>
+							<td>&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+						</tr>
+						<tr>
+							<td>Beta Boulders</td>
+							<td>&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+						</tr>
+						<tr>
+							<td>De Boulder</td>
+							<td>&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+						</tr>
+						<tr>
+							<td>Monk Bouldergym</td>
+							<td>&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+						</tr>
+					</tbody>
+				</table>
+			</article>
+		</fieldset>
+	</form>
+</main>
+
+<footer>
+	<p>&copy; 2026 Huszár Levi</p>
+</footer>
 </body>
 </html>
