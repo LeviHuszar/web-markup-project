@@ -1,3 +1,10 @@
+/* FONT IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,20 +28,29 @@ header {
     align-items: center;
     padding: 10px 10%;
     background-color: #173B5E;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #173B5E;
 }
 
 .nav_links {
-    grid-column: 1 / 4;
+    grid-column: 3;
     grid-row: 1;
     display: flex;
-    justify-content: space-between;
+    justify-self: end;
+}
+
+.logo-link {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
 }
 
 .nav_links a {
     color: white;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 400;
     text-decoration: none;
     border: 1px solid white;
     border-radius: 4px;
@@ -43,7 +59,7 @@ header {
 }
 
 .nav_links a:hover {
-    color: #55B9E8;
+    color: #173B5E;
 }
 
 .logo {
@@ -66,7 +82,19 @@ header {
     margin-bottom: 24px;
     text-align: center;
     color: white;
+    font-family: "Armata", sans-serif;
     background-color:#173B5E;
+    border: 2px solid #173B5E;
+    border-radius: 8px;
+}
+
+.title-card {
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-family: "Armata", sans-serif;
+    background-color: #173B5E;
     border: 2px solid #173B5E;
     border-radius: 8px;
 }
@@ -81,6 +109,10 @@ header {
     min-height: 250px;
     padding: 24px;
     color: white;
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    font-style: normal;
     border: 2px solid;
     border-radius: 8px;
     display: flex;
@@ -99,4 +131,122 @@ header {
 .border-lookup {
     background-color: #173B5E;
     border-color: #173B5E;
+}
+
+/* GET STARTED */
+
+.tips {
+    background-color: #173B5E;
+    border-color: #173B5E;
+}
+
+.gear {
+    background-color: #173B5E;
+    border-color: #173B5E;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.icon-row > .card {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 220px;
+    min-width: 180px;
+    padding: 16px;
+}
+
+.icon-row > .card img {
+    width: 80px;
+    height: 80px;
+}
+
+/* GEAR */
+
+.shoes {
+    background-color: #173B5E;
+    border-color: #173B5E;
+}
+
+.chalk {
+    background-color: #173B5E;
+    border-color: #173B5E;
+}
+
+.pick {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.icon-row > .card {
+    cursor: pointer;
+}
+
+.icon-row > .card:hover {
+    border-color: white;
+}
+
+.dropdown {
+    display: none;
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #173B5E;
+    border: 2px solid #173B5E;
+    border-radius: 8px;
+    font-family: "Armata", sans-serif;
+    color:white;
+}
+
+
+/* shows the table that is correspondent to the icon */
+#gear-shoes:checked ~ #shoes-table,
+#gear-chalk:checked ~ #chalk-table {
+    display: block;
+}
+
+.back {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 8px 14px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #55B9E8;
+    font-family: "BBH Bartle", sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.back:hover {
+    color:#173B5E;
+}
+
+.dropdown table {
+    width: 100%;
+    border-collapse: collapse;
+    color:black;
+}
+
+.dropdown th {
+    padding: 8px;
+    text-align: left;
+    background-color: #55B9E8;
+    color:white;
+}
+
+.dropdown td {
+    padding: 8px;
+}
+
+.dropdown tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+.dropdown tbody tr:nth-child(even) {
+    background-color: #CFF;
 }
