@@ -4,222 +4,246 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tips</title>
-    <link rel="stylesheet" href="css/style-content.css">
-    <link rel="icon" type="image/favicon-icon" href="/img/favicon.png"
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/favicon-icon" href="/img/favicon.png">
 
 </head>
 <body>
-    <h1>Tips</h1>
+    <header>
+        <nav class="nav_links">
+			<a href="contact.html">Contact</a>
+		</nav>
 
-    <article>
-        <header>
-            <h3>General Tips</h3>
+		<a class="logo-link" href="index.html"><img class="logo" src="img/small logo - white transparent.svg" alt="Bouldertip logo" title="Bouldertip logo"></a>
+    </header>
+
+    <main class="content">
+        <section class="title-card">
+            <h1>Tips</h1>
+        </section>
+
+        <section class="description-card">
+            <h3>Here you can learn good bouldering tips, diet & training</h3>
+            <p>Press on the <i>lightbulb</i> for General Tips</p>
+            <p>Press on the <i>gear and arrow</i> for Ways to Improve.</p>
+            <p>Press on the <i>dumbbell and kitchenware</i> for Training & Diet.</p>
+        </section>
+
+        <input type="radio" name="tips" id="tip-none" class="pick" checked>
+		<input type="radio" name="tips" id="tip-general" class="pick">
+		<input type="radio" name="tips" id="tip-improve" class="pick">
+		<input type="radio" name="tips" id="tip-training" class="pick">
+
+
+        <section class="icon-row">
+            <label for="tip-general" class="tips card">
+                <img src="/img/general-tips-white.png" alt="General tips icon" title="General Tips">
+            </label>
+
+            <label for="tip-improve" class="tips card">
+				<img src="img/ways-to-improve-white.png" alt="Tips to improve icon" title="Tips to help you improve">
+			</label>
+
+            <label for="tip-training" class="tips card">
+				<img src="img/diet-training-white.png" alt="Training and diet icon" title="Training &amp; Diet">
+			</label>
+        </section>
+
+        <article class="dropdown" id="general">
+			<label for="tip-none" class="back">Go back</label>
+			<h2>General Tips</h2>
+
+			<ul>
+				<li>Pay attention to the gym's rules</li>
+				<li>Be aware of people around you, especially when walking near the walls or landing areas.</li>
+				<li>Expect to fall and fail often, it's a normal process.</li>
+				<li>Don't compare your progress with other climbers. Go at your own pace.</li>
+				<li>Wear comfortable clothing that allows you to be flexible.</li>
+				<li>Ask people around you if you are unsure about something</li>
+				<li>Remember to take breaks when you need to</li>
+				<li>Stop if your hands are becoming too tired and blisters appear</li>
+			</ul>
+		</article>
+
+
+        <article class="dropdown" id="improve">
+			<label for="tip-none" class="back">Go back</label>
+			<h2>Tips to help you improve</h2>
+			<ul>
+				<li>
+					<h3>Film yourself climb</h3>
+					<p>
+						A way to improve your climbing is seeing yourself
+						climb from a different perspective. You might
+						be able to get to the root of your problem from
+						seeing yourself climb from afar
+					</p>
+				</li>
+				<li>
+					<h3>Clean your shoes from chalk</h3>
+					<p>
+						There is a lot of chalk around the gym, after a while
+						your shoes will be completely white. Chalk makes your fingers
+						sticky, but not for your shoes. Only time you should let chalk
+						on your shoes is if your shoes are wet. Try to keep it chalk free.
+					</p>
+				</li>
+				<li>
+					<h3>Don't over-grip or re-grip too much</h3>
+					<p>
+						A frequent mistake beginners make is when they grab a hold they adjust
+						their hands way too much. It's better to grab it once, maybe adjust it one time
+						and then move on.
+					</p>
+				</li>
+				<li>
+					<h3>Climbing faster</h3>
+					<p>
+						Beginners spend too much time on the wall and get tired way faster.
+						Climbing fast removes that issue. You should first visualize how to get from
+						point A to point B and try to climb it as fast as you can. It might not be the
+						&quot;perfect technique&quot; but the difficulty level will drastically decrease if you implement
+						that.
+					</p>
+				</li>
+				<li>
+					<h3>Climb with straight arms</h3>
+					<p>
+						Beginners bend their arms since they don't know how to control their power
+						on the wall, with bending your arms it will be a lot harder to climb since the tension
+						is a lot greater for your muscles. Keeping a straight arm will help your stamina immensely.
+					</p>
+				</li>
+				<li>
+					<h3>Wave your arms</h3>
+					<p>
+						It's important to keep your hands as dry as possible, a lot of climbers wave their arms
+						around when they climb. Waving your arms around will help you get as much air as possible
+						and keep your hands dry.
+					</p>
+				</li>
+			</ul>
+		</article>
+
+
+        <article class="dropdown" id="training">
+			<label for="tip-none" class="back">Go back</label>
+			<h2>Training &amp; Diet</h2>
+			<h3>Training</h3>
+			<ul>
+				<li>
+					<h4>Dynamic Climbing</h4>
+					<p>What it does:</p>
+					<ul>
+						<li>
+							<h5>Improve dynamic movement:</h5>
+							<ul>
+								<li>
+									<p>How to:</p>
+									<p>0 - 20 degree overhang</p>
+									<p>3 boulders around V0</p>
+									<p>Move without stopping</p>
+									<p>Rest 2-5 minutes between each boulder</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h4>No Hands Slab</h4>
+					<p>What it does:</p>
+					<ul>
+						<li>
+							<h5>Climbing without the use of your hands, Improves performance of footwork.</h5>
+							<ul>
+								<li>
+									<p>How to:</p>
+									<p>Find inclined wall</p>
+									<p>Climb the wall with minimal assistance from hands</p>
+									<p>Rest 1-2 minutes between each boulder</p>
+									<p>Repeat 6 times</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h4>Pull-up Negatives</h4>
+					<ul>
+						<li>
+							<p>How to:</p>
+							<p>Jump to the top of the bar</p>
+							<p>Slowly lower yourself</p>
+							<p>Repeat 5 times per set</p>
+							<p>3 sets in total</p>
+							<p>2 minutes rest per set</p>
+							<p>use resistance band if necessary</p>
+						</li>
+					</ul>
+				</li>  
+                <li>
+	                <h4>Basic Grip Engagement</h4>
+	                <p>3 basic grip types to maximize</p>
+	                <ul>
+		                <li>half crimp</li>
+		                <li>open-handed grip</li>
+		                <li>sloper</li>
+	                </ul>
+	                <p>instead of practicing, you need to memorize, and learn how to hold correctly.</p>
+	                <p>How to:</p>
+	                <p>Perform them on a hangboard.</p>
+	                <p>Don't let your feet leave the ground</p>
+
+	                <h5>Set 1: Half crimp (fingers are 90 degree angle)</h5>
+	                <ul>
+		                <li>5 seconds on, 5 seconds off</li>
+		                <li>Repeat 5 times</li>
+		                <li><strong>NOTE:</strong> Keep a VERY low intensity, no more than a light strain</li>
+	                </ul>
+
+	                <h5>Set 2: Open hand 3 finger drag</h5>
+	                <ul>
+		                <li>5 seconds on, 5 seconds off</li>
+		                <li>Repeat 5 times</li>
+		                <li><strong>NOTE:</strong> Keep a VERY low intensity, no more than a light strain</li>
+	                </ul>
+
+	                <h5>Set 3: Sloper (rounded hold)</h5>
+	                <ul>
+		                <li>5 seconds on, 5 seconds off</li>
+		                <li>Repeat 5 times</li>
+		                <li><strong>NOTE:</strong> Keep a VERY low intensity, no more than a light strain</li>
+	                </ul>
+                </li>
+			</ul>
+			<h3>Diet</h3>
+
+            <h4>Protein</h4>
+            <p>Aim for 3 main meals with protein, built up to 4-5 meals/day if you are training hard</p>
+            <p>Portion size: about a palm-sized amount per meal (~25/30g protein)</p>
+            <p>A whole chicken breast is roughly around 45g.</p>
             <ul>
-                <li>
-                    Pay attention to the gym's rules
-                </li>
-
-                <li>
-                    Be aware of people around you, especially when walking near the walls or landing areas.
-                </li>
-
-                <li>
-                    Expect to fall and fail often, it's a normal process.
-                </li>
-
-                <li>
-                    Don't compare your progress with other climbers. Go at your own pace.
-                </li>
-
-                <li>
-                    Wear comfortable clothing that allows you to be flexible.
-                </li>
-
-                <li>
-                    Ask people around you if you are unsure about something
-                </li>
-
-                <li>
-                    Remember to take breaks when you need to
-                </li>
-
-                <li>
-                    Stop if your hands are becoming too tired and blisters appear
-                </li>
-
+	            <li>Morning protein: starting the day with a bigger protein meal tends to help, protein is satiating, so a low-protein breakfast (e.g. toast + peanut butter, granola + oat milk) often leads to snacking later</li>
             </ul>
-        </header>
-    </article>
 
-    <article>
-        <header>
-            <h3>Tips to help you improve</h3>
-            <ul>
-                <li>
-                    
-                    <h4>Film yourself climb</h4>
+            <h4>Carbohydrates</h4>
+            <p>roughly 150g/day on non-training days.</p>
+            <p>on training days double your baseline &rarr; 300g</p>
+            <p>before/during: 30-60 g, then possibly another 30/60g+ during a longer session.</p>
+            <p>go for fast-digesting options: bananas, muesli/granola bar, fruit juice</p>
 
-                    <p>
-                        A way to improve your climbing is seeing yourself
-                        climb from a different perspective. You might
-                        be able to get to the root of your problem from
-                        seeing yourself climb from afar
-                    </p>
+            <h4>Caffeine</h4>
+            <p>Caffeine helps power output, focus, alertness and lowers perceived exertion</p>
+            <p>However caffeine can mask under-fueling. It feels good acutely but poor for long-term recovery.</p>
+            <p>Instead of caffeine, eating cookies/brownies/chocolate before a session is a better use of energy, since it won't disrupt your recovery sleep (don't overeat processed sugary products)</p>
 
-                </li>
+            <h4>Hydration</h4>
+            <p>pint of water first thing in the morning</p>
+		</article>
+    </main>
 
-                <li>
-
-                    <h4>Clean your shoes from chalk</h4>
-                
-
-                    <p>
-                        There is a lot of chalk around the gym, after a while
-                        your shoes will be completely white. Chalk makes your fingers
-                        sticky, but not for your shoes. Only time you should let chalk
-                        on your shoes is if your shoes are wet. Try to keep it chalk free.
-                    </p>
-                </li>
-
-                <li>
-
-                    <h4>Don't over-grip or re-grip too much</h4>
-
-
-                    <p>
-                        A frequent mistake beginners make is when they grab a hold they adjust
-                        their hands way too much. It's better to grab it once, maybe adjust it one time
-                        and then move on.
-                    </p>
-
-                </li>
-                
-                <li>
-
-                    <h4>Climbing faster</h4>
-                    
-
-                    <p>
-                        Beginners spend too much time on the wall and get tired way faster.
-                        Climbing fast removes that issue. You should first visualize how to get form
-                        point A to point B and try to climb it as fast as you can. It might not be the
-                        "perfect technique" but the difficulty level will drastically decrease if you implement
-                        that.
-                    </p>
-
-                </li>
-
-                <li>
-
-                    <h4>Climb with straight arms</h4>
-                
-
-                    <p>
-                        Beginners bend their arms since they don't know how to control their power
-                        on the wall, with bending your arms it will be a lot harder to climb since the tension
-                        is a lot greater for your muscles. Keeping a straight arm will help your stamina immensely.
-                    </p>
-                </li>
-
-                <li>
-                    
-                    <h4>Wave your arms</h4>
-
-
-                    <p>
-                        It's important to keep your hands as dry as possible, a lot of climbers wave their arms
-                        around when they climb. Wabing your arms around will help you get as much air as possible
-                        and keep your hands dry.
-                    </p>
-                </li>
-
-
-            </ul>
-        </header>
-    </article>
-
-    <h1>Training & Diet</h1>
-
-    <article>
-        <header>
-            <h3>Training</h3>
-
-            <ul>
-                <li>
-                    
-                    <h4>Dynamic Climbing</h4>
-
-
-                    <p>What it does:</p>
-                        <ul>
-                            <li>
-                                <h5>Improve dynamic movement:</h5>
-
-                                <ul>
-                                    <li>
-                                        <p>How to:</p>
-
-                                        <p>0 - 20 degree overhang</p>
-                                        <p>3 boulders around V0</p>
-                                        <p>Move without stopping</p>
-                                        <p>Rest 2-5 minutes between each boulder</p>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    
-                </li>
-
-            
-                <li>
-
-                    <h4>No Hands Slab</h4>
-
-                    <p>What it does:</p>
-                        <ul>
-                            <li>
-                                <h5>Climbing without the use of your hands, Improves performance of footwork.</h5>
-
-                                <ul>
-                                    <li>
-                                        <p>How to:</p>
-
-                                        <p>Find inclined wall</p>
-                                        <p>Climb the wall with minimal assistance from hands</p>
-                                        <p>Rest 1-2 minutes between each boulder</p>
-                                        <p>Repeat 6 times</p>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-    
-
-                </li>
-
-                <li>
-                    <h4>Pull-up Negatives</h4>
-
-                    <p>What it does:</p>
-                    <ul>
-                        <li>
-                            How to:
-
-                            <p>Jump to the top of the bar</p>
-                            <p>Slowly lower yourself</p>
-                            <p>Repeat 5 times per set</p>
-                            <p>3 sets in total</p>
-                            <p>2 minutes rest per set</p>
-                            <p>use resistance band if necessary</p>
-
-                        </li>
-                    </ul>
-                </li>
-
-
-            </ul>
-        </header>
-
-
-    </article>
+    <footer>
+        <p>&copy; 2026 Huszár Levi</p>
+    </footer>
 </body>
 </html>

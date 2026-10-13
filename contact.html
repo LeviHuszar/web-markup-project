@@ -4,43 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="css/style-contact.css">
-    <link rel="icon" type="image/favicon-icon" href="/img/favicon.png"
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/favicon-icon" href="/img/favicon.png">
 
 </head>
 <body>
     <header>
-        <h1>Contact</h1>
+        <a class="logo-link" href="index.html"><img class="logo" src="img/small logo - white transparent.svg" alt="Bouldertip logo" title="Bouldertip logo"></a>
     </header>
-    
-    <form action="/" method="post">
+
+    <main class="content contact-layout">
+        <aside class="banner">
+            <figure>
+                <img src="/img/long logo transparent.svg" alt="Bouldertip banner" title="Bouldertip banner">
+                <figcaption>Bouldertip</figcaption>
+            </figure>
+        </aside>
+
+        <form class="contact-form" action="/" method="post">
+            <fieldset>
+                <legend>Contact</legend>
+
+                <p class="name-row">
+                    <label for="name">Name</label>
+                    <input class="text-field" type="text" id="name" name="name" placeholder="Your name.." required>
+
+
+                    <span class="title-radios">
+                        <input type="radio" id="mr" name="title-desktop" value="mr">
+                        <label for="mr">Mr</label>
+
+                        <input type="radio" id="ms" name="title-desktop" value="ms">
+                        <label for="Ms">Ms</label>
+                    </span>
+
+                    <select class="title-select" name="title-mobile" aria-label="Title">
+                        <option value="mr">Mr</option>
+                        <option value="ms">Ms</option>
+                    </select>
+                </p>
+
+                <p class="field">
+                    <label for="email">Email</label>
+                    <input class="text-field" type="email" id="email" name="email" placeholder="Your email.." required>
+                </p>
+
+                <p class="field">
+                    <label for="message">Message</label>
+                    <textarea class="text-field" id="message" name="message" rows="6" placeholder="Message.."></textarea>
+                </p>
+
+                <input class="submit-button" type="submit" value="Submit">
+            </fieldset>    
+        </form>
+    </main>
+
+    <footer class="data-notice">
+        <h3>Data Notice:</h3>
         
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your name.." required>
-            
-
-            <label for="identity">Pronouns (Mr/Ms)</label>
-            
-            <label for="identity">Mr</label>
-            <input type="radio" name="identity" value="Mr">
-
-            <label for="identity">Ms</label>
-            <input type="radio" name="identity" value="Ms">
-            
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Email.." required>
-            
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message.." required></textarea>
-
-            <input type="submit" value="Submit">
-            
-    </form>
+        <p>Data will only be viewable/storageable by the owner. Data is not sold to third-party services.</p>
+        
+        <p>&copy; 2026 Huszár Levi</p>
+    </footer>
 </body>
-
-<footer>
-    <p>&copy; 2026 Huszár Levi</p>
-</footer>
 </html>
