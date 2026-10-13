@@ -321,8 +321,11 @@ footer {
 
 .banner img {
     display: block;
+    width: auto;
     max-width: 100%;
     height: auto;
+    max-height: 400px;
+    margin: 0 auto;
 }
 
 .contact-form {
@@ -624,6 +627,10 @@ textarea.text-field {
 	.banner {
 		padding: 8px;
 	}
+
+    .banner img {
+        max-height: 300px;
+    }
 
 	.banner figcaption {
 		font-size: 10px;

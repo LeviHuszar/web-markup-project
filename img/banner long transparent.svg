@@ -1,0 +1,34 @@
+<svg width="27" height="141" viewBox="0 0 27 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_10105_73)">
+<path d="M5.00001 133L5.00001 129.444C5.00001 126.99 6.98985 125 9.44445 125C11.4081 125 13 126.592 13 128.556L13 133" stroke="white" stroke-width="2"/>
+<path d="M13 133L13 127.444C13 124.99 14.9899 123 17.4444 123C19.4081 123 21 124.592 21 126.556L21 133" stroke="white" stroke-width="2"/>
+<path d="M4.00001 135L22 135" stroke="white" stroke-width="2"/>
+<circle cx="13" cy="113" r="7" transform="rotate(-90 13 113)" stroke="white" stroke-width="2"/>
+<path d="M4 102L16 102C18.7614 102 21 99.7614 21 97C21 94.2386 18.7614 92 16 92L4 92" stroke="white" stroke-width="2"/>
+<path d="M25 78L25 89L2 89L2 78L25 78Z" fill="white"/>
+<path d="M5 75L5 70C5 67.2386 7.23858 65 10 65L15 65C17.7614 65 20 67.2386 20 70L20 75" stroke="white" stroke-width="2"/>
+<path d="M19 74L4 74" stroke="white" stroke-width="2"/>
+<path d="M4 61L20 61L20 53" stroke="white" stroke-width="2"/>
+<path d="M12 61L12 53" stroke="white" stroke-width="2"/>
+<path d="M5 61L5 53" stroke="white" stroke-width="2"/>
+<path d="M4 49L21 49" stroke="white" stroke-width="2"/>
+<path d="M5 49L5 44C5 42.3431 6.34315 41 8 41C9.65686 41 11 42.3431 11 44L11 49" stroke="white" stroke-width="2"/>
+<path d="M5 38L5 26" stroke="white" stroke-width="2"/>
+<path d="M4 32L21 32" stroke="white" stroke-width="2"/>
+<path d="M6 22L21 22" stroke="white" stroke-width="2"/>
+<rect x="3" y="23" width="2" height="2" transform="rotate(-90 3 23)" fill="white"/>
+<path d="M4 17L21 17" stroke="white" stroke-width="2"/>
+<path d="M5 15L5 10.5C5 8.567 6.567 7 8.5 7C10.433 7 12 8.567 12 10.5L12 15" stroke="white" stroke-width="2"/>
+<path d="M11 47L21 39" stroke="white" stroke-width="2"/>
+<rect x="21" y="83" width="4" height="2" transform="rotate(-90 21 83)" fill="#D0FB11"/>
+<rect x="17" y="87" width="4" height="2" transform="rotate(-90 17 87)" fill="#DD1E1E"/>
+<rect x="12" y="83" width="4" height="2" transform="rotate(-90 12 83)" fill="#F30909"/>
+<rect x="8" y="87" width="4" height="2" transform="rotate(-90 8 87)" fill="#1B92E6"/>
+<rect x="4" y="83" width="4" height="2" transform="rotate(-90 4 83)" fill="#D0FF00"/>
+</g>
+<defs>
+<clipPath id="clip0_10105_73">
+<rect width="141" height="27" fill="white" transform="translate(6.19888e-06 141) rotate(-90)"/>
+</clipPath>
+</defs>
+</svg>
