@@ -2,4 +2,4 @@ Student name: Levi Huszár
 Student number: 760608
 Student class: HAIT26FT1C
 GitHub Repository: https://github.com/LeviHuszar/web-markup-project
-GitHub Pages URL: your github pages URL
+GitHub Pages URL: https://levihuszar.github.io/web-markup-project/
