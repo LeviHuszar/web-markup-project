@@ -250,6 +250,29 @@ header {
 	color:#173B5E;
 }
 
+.to-top {
+	display: block;
+	width: 140px;
+	margin: 16px auto 0;
+	padding: 8px 14px;
+	border: 1px solid white;
+	border-radius: 4px;
+	background-color: #55B9E8;
+	color: white;
+	font-family: "BBH Bartle", sans-serif;
+	font-size: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.to-top:hover {
+	color: #173B5E;
+}
+
+.to-top:active {
+	background-color: #173B5E;
+}
+
 .dropdown table {
 	width: 100%;
 	border-collapse: collapse;
