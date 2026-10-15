@@ -1,100 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boulder Lookup</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/favicon-icon" href="/img/favicon.png">
-</head>
-<body>
-    <header>
-        <nav class="nav_links">
-                <a href="contact.html">Contact</a>
-        </nav>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Levi Huszár">
+		<meta name="description" content="Find bouldering gyms in Haarlem and Amsterdam. Choose a city and compare the gyms by
+		difficulty to find your next challenge.">
+		<meta name="keywords" content="bouldering, Haarlem, Amsterdam, difficulty, gyms">
+		<title>Boulder Lookup</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="image/favicon-icon" href="/img/favicon.png">
+	</head>
+	<body>
+		<header>
+			<nav class="nav_links">
+				<a href="contact.html">Contact</a>
+			</nav>
 
-        <a class="logo-link" href="index.html"><img class="logo" src="/img/small logo - white transparent.svg" alt="Bouldertip logo"></a>
-    </header>
+			<a class="logo-link" href="index.html"><img class="logo" src="/img/small-logo-white-transparent.svg" alt="Bouldertip logo" title="Bouldertip logo"></a>
+		</header>
 
-    <main class="content">
-	<section class="title-card">
-		<p>Boulder Lookup</p>
-	</section>
+		<main class="content">
+			<section class="title-card">
+				<h1>Boulder Lookup</h1>
+			</section>
 
-	<section class="description-card">
-		<h3>Here you can find Bouldering gyms in Haarlem & Amsterdam!</h3>
-			With the help of the Difficulty scaling you can gradually try out different locations as you improve!
-		</p>
-	</section>
+			<section class="description-card">
+				<h3>Here you can find Bouldering gyms in Haarlem &amp; Amsterdam!</h3>
+					<p>With the help of the Difficulty scaling you can gradually try out different locations as you improve!</p>
+			</section>
 
-	<form>
-		<fieldset class="city-choice">
-			<legend>Choose a city</legend>
+			<form>
+				<fieldset class="city-choice">
+					<legend>Choose a city</legend>
 
-			<input type="radio" name="city" id="haarlem" value="haarlem" checked>
-			<label for="haarlem">Haarlem</label>
-			<input type="radio" name="city" id="amsterdam" value="amsterdam">
-			<label for="amsterdam">Amsterdam</label>
+					<input type="radio" name="city" id="haarlem" value="haarlem" checked>
+					<label for="haarlem">Haarlem</label>
+					<input type="radio" name="city" id="amsterdam" value="amsterdam">
+					<label for="amsterdam">Amsterdam</label>
 
-			<article class="dropdown" id="haarlem-bouldering">
-				<table>
-					<thead>
-						<tr>
-							<th>Location</th>
-							<th>Difficulty</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Klimmuur Haarlem</td>
-							<td>&#9733;&#9733;&#9734;&#9734;&#9734;</td>
-						</tr>
-						<tr>
-							<td>Boulderhal De Fabriek Haarlem</td>
-							<td>&#9733;&#9733;&#9733;&#9733;&#9734;</td>
-						</tr>
-					</tbody>
-				</table>
-			</article>
+					<article class="dropdown" id="haarlem-bouldering">
+						<h2 class="hidden-heading">Haarlem</h2>
+						<table>
+							<thead>
+								<tr>
+									<th>Location</th>
+									<th>Difficulty</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Klimmuur Haarlem</td>
+									<td>&#9733;&#9733;&#9734;&#9734;&#9734;</td>
+								</tr>
+								<tr>
+									<td>Boulderhal De Fabriek Haarlem</td>
+									<td>&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+								</tr>
+							</tbody>
+						</table>
+					</article>
 
-			<article class="dropdown" id="amsterdam-bouldering">
-				<table>
-					<thead>
-						<tr>
-							<th>Location</th>
-							<th>Difficulty</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Beest Boulders, Het Lab</td>
-							<td>&#9733;&#9734;&#9734;&#9734;&#9734;</td>
-						</tr>
-						<tr>
-							<td>Beest Boulders</td>
-							<td>&#9733;&#9733;&#9734;&#9734;&#9734;</td>
-						</tr>
-						<tr>
-							<td>Beta Boulders</td>
-							<td>&#9733;&#9733;&#9733;&#9734;&#9734;</td>
-						</tr>
-						<tr>
-							<td>De Boulder</td>
-							<td>&#9733;&#9733;&#9733;&#9733;&#9734;</td>
-						</tr>
-						<tr>
-							<td>Monk Bouldergym</td>
-							<td>&#9733;&#9733;&#9733;&#9733;&#9733;</td>
-						</tr>
-					</tbody>
-				</table>
-			</article>
-		</fieldset>
-	</form>
-</main>
+					<article class="dropdown" id="amsterdam-bouldering">
+						<h2 class="hidden-heading">Amsterdam</h2>
+						<table>
+							<thead>
+								<tr>
+									<th>Location</th>
+									<th>Difficulty</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Beest Boulders, Het Lab</td>
+									<td>&#9733;&#9734;&#9734;&#9734;&#9734;</td>
+								</tr>
+								<tr>
+									<td>Beest Boulders</td>
+									<td>&#9733;&#9733;&#9734;&#9734;&#9734;</td>
+								</tr>
+								<tr>
+									<td>Beta Boulders</td>
+									<td>&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+								</tr>
+								<tr>
+									<td>De Boulder</td>
+									<td>&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+								</tr>
+								<tr>
+									<td>Monk Bouldergym</td>
+									<td>&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+								</tr>
+							</tbody>
+						</table>
+					</article>
+				</fieldset>
+			</form>
+		</main>
 
-<footer>
-	<p>&copy; 2026 Huszár Levi</p>
-</footer>
-</body>
+		<footer>
+			<p>&copy; 2026 Huszár Levi</p>
+		</footer>
+
+	</body>
 </html>
