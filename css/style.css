@@ -491,6 +491,10 @@ textarea.text-field {
 	
 }
 
+.data-notice h4 {
+	margin-top: 20px;
+}
+
 /* TIPS */
 
 /* shows the text that is correspondent to the icon */
