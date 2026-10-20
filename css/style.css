@@ -592,6 +592,10 @@ textarea.text-field {
 	font-size: 15px;
 }
 
+.home-page {
+	padding-bottom: 70px;
+}
+
 
 
 /* PC RESPONSIVENESS */
@@ -641,6 +645,10 @@ textarea.text-field {
 	.card {
 		min-height: 150px;
 		padding: 16px;
+	}
+
+	.home-page {
+		padding-bottom: 100px;
 	}
 
 	/* get started, gear and tips: icons below each other */
