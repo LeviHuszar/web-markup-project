@@ -13,11 +13,22 @@
 	</head>
 	<body>
 		<header>
+			<a class="logo-link" href="index.html"><img class="logo" src="img/small-logo-white-transparent.svg" alt="Bouldertip logo" title="Bouldertip logo"></a>
+
+			<input type="checkbox" id="menu-toggle" class="menu-toggle">
+    		<label for="menu-toggle" class="hamburger">
+        		<span></span>
+        		<span></span>
+        		<span></span>
+    		</label>
+
 			<nav class="nav_links">
+				<a href="index.html">Home</a>
+				<a href="started.html">Get Started</a>
+				<a href="gear.html">Gear</a>
+				<a href="tips.html">Tips</a>
 				<a href="contact.html">Contact</a>
 			</nav>
-
-			<a class="logo-link" href="index.html"><img class="logo" src="img/small-logo-white-transparent.svg" alt="Bouldertip logo" title="Bouldertip logo"></a>
 		</header>
 
 		<main class="content">
@@ -32,11 +43,13 @@
 
 			<form>
 				<fieldset class="city-choice">
-					<legend>Choose a city</legend>
+					<legend>
+						Choose a city
+					</legend>
 
-					<input type="radio" name="city" id="haarlem" value="haarlem" checked>
+					<input type="radio" name="city" id="haarlem" value="haarlem" class="pick">
 					<label for="haarlem">Haarlem</label>
-					<input type="radio" name="city" id="amsterdam" value="amsterdam">
+					<input type="radio" name="city" id="amsterdam" value="amsterdam" class="pick">
 					<label for="amsterdam">Amsterdam</label>
 
 					<article class="dropdown" id="haarlem-bouldering">

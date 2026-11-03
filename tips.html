@@ -13,11 +13,22 @@
 	</head>
 	<body>
 		<header>
+			<a class="logo-link" href="index.html"><img class="logo" src="img/small-logo-white-transparent.svg" alt="Bouldertip logo" title="Bouldertip logo"></a>
+
+			<input type="checkbox" id="menu-toggle" class="menu-toggle">
+    		<label for="menu-toggle" class="hamburger">
+        		<span></span>
+        		<span></span>
+        		<span></span>
+    		</label>
+
 			<nav class="nav_links">
+				<a href="index.html">Home</a>
+				<a href="started.html">Get Started</a>
+				<a href="search.html">Boulder Lookup</a>
+				<a href="gear.html">Gear</a>
 				<a href="contact.html">Contact</a>
 			</nav>
-
-			<a class="logo-link" href="index.html"><img class="logo" src="img/small-logo-white-transparent.svg" alt="Bouldertip logo" title="Bouldertip logo"></a>
 		</header>
 
 		<main class="content">
@@ -27,9 +38,6 @@
 
 			<section class="description-card">
 				<h3>Here you can learn good bouldering tips, diet &amp; training</h3>
-				<p>Press on the <em>lightbulb</em> for General Tips</p>
-				<p>Press on the <em>gear and arrow</em> for Ways to Improve.</p>
-				<p>Press on the <em>dumbbell and kitchenware</em> for Training &amp; Diet.</p>
 			</section>
 
 			<input type="radio" name="tips" id="tip-none" class="pick" checked>
@@ -40,14 +48,17 @@
 			<section class="icon-row">
 				<h2 class="hidden-heading">Choose a topic</h2>
 				<label for="tip-general" class="tips card">
+					<h2>General Tips</h2>
 					<img src="img/general-tips-white.png" alt="General tips icon" title="General Tips">
 				</label>
 
 				<label for="tip-improve" class="tips card">
+					<h2>Ways to Improve</h2>
 					<img src="img/ways-to-improve-white.png" alt="Tips to improve icon" title="Tips to help you improve">
 				</label>
 
 				<label for="tip-training" class="tips card">
+					<h2>Training &amp; Diet</h2>
 					<img src="img/diet-training-white.png" alt="Training and diet icon" title="Training &amp; Diet">
 				</label>
 			</section>

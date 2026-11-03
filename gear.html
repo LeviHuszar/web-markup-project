@@ -14,11 +14,22 @@
 	</head>
 	<body>
 		<header>
-			<nav class="nav_links">
-					<a href="contact.html">Contact</a>
-			</nav>
-		
 			<a class="logo-link" href="index.html"><img class="logo" src="img/small-logo-white-transparent.svg" alt="Bouldertip logo" title="Bouldertip logo"></a>
+
+			<input type="checkbox" id="menu-toggle" class="menu-toggle">
+    		<label for="menu-toggle" class="hamburger">
+        		<span></span>
+        		<span></span>
+        		<span></span>
+    		</label>
+
+			<nav class="nav_links">
+				<a href="index.html">Home</a>
+				<a href="started.html">Get Started</a>
+				<a href="search.html">Boulder Lookup</a>
+				<a href="tips.html">Tips</a>
+				<a href="contact.html">Contact</a>
+			</nav>
 		</header>
 
 		<main class="content">
@@ -42,10 +53,12 @@
 			<section class="icon-row">
 				<h2 class="hidden-heading">Choose shoes or chalk</h2>
 				<label for="gear-shoes" class="gear card">
+					<h2>Shoes</h2>
 					<img src="img/shoes-white.png" alt="Shoes icon" title="Shoes icon">
 				</label> 
 
 				<label for="gear-chalk" class="gear card">
+					<h2>Chalk</h2>
 					<img src="img/chalk-white.png" alt="Chalk icon" title="Chalk icon">
 				</label>
 			</section>
