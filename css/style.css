@@ -207,7 +207,7 @@ header {
 }
 
 .icon-row > .card {
-	display: flex;;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -250,7 +250,8 @@ header {
 	border-color: white;
 }
 
-.icon-row > .card h2 {
+.icon-row > .card h2,
+.icon-row > .card .card-title {
 	color: white;
 	font-family: "Momo Trust Display", sans-serif;
 	font-size: 25px;
@@ -361,14 +362,14 @@ header {
 
 .city-choice > legend {
 	float: left;
-    width: 100%;
-    margin-bottom: 16px;
-    padding: 0;
-    font-family: "Momo Trust Display", sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
+	width: 100%;
+	margin-bottom: 16px;
+	padding: 0;
+	font-family: "Momo Trust Display", sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
 }
 
 .city-choice label {
@@ -393,7 +394,7 @@ footer {
 	padding: 10px;
 	text-align: center;
 	color: white;
-	font-family: "Armata", sans-serAif;
+	font-family: "Armata", sans-serif;
 	font-size: 15px;
 	background-color: #173B5E;
 	border: 2px solid #173B5E;
@@ -703,7 +704,7 @@ textarea.text-field {
 		background-color: transparent;
 		border: none;
 		border-radius: 0;
-		padding: 2;
+		padding: 2px;
 		color: white;
 		font-size: 14px;
 
@@ -793,15 +794,15 @@ textarea.text-field {
 
 	.city-choice > legend {
 		float: none;
-    	width: 100%;
+		width: 100%;
 		margin-top: 16px;
-   		margin-bottom: 0px;
-    	padding: 8px 0;
-    	font-family: "Momo Trust Display", sans-serif;
-    	font-size: 20px;
-    	text-transform: uppercase;
-    	text-align: center;
-    	color: white;
+		margin-bottom: 0;
+		padding: 8px 0;
+		font-family: "Momo Trust Display", sans-serif;
+		font-size: 20px;
+		text-transform: uppercase;
+		text-align: center;
+		color: white;
 	}
 
 	.city-choice > label {
